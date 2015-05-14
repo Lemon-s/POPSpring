@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  Good
+//
+//  Created by YouXianMing on 15/5/12.
+//  Copyright (c) 2015年 YouXianMing. All rights reserved.
+//
+
+#ifndef Good_PrefixHeader_pch
+#define Good_PrefixHeader_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "POP.h"
+#import "UIView+SetRect.h"
+#import "WxHxD.h"
+#endif
+
+#endif
